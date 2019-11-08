@@ -1,0 +1,59 @@
+@media print {
+
+.btn, .download,
+nav, img,
+footer {
+  display: none;
+}
+
+html, body,
+.work, .education {
+  background: #000000;
+}
+
+#main {
+  float: none;
+}
+
+* {
+  color: #000000 !important;
+}
+
+.page-before {
+  page-break-before: always;
+}
+
+.page-after {
+  page-break-after: always;
+}
+
+h1 {
+  font-size: 30pt !important;
+  font-family: cursive;
+  margin: 0;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 16pt !important;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 13pt !important;
+  font-family: cursive;
+  margin: 0;
+  padding: 5px;
+}
+
+p {
+  font-size: 11pt !important;
+  font-family: sans-serif;
+}
+
+a:after {
+  content: " (" attr(href) ") ";
+}
+
+
+}
